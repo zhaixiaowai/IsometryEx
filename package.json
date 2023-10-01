@@ -1,0 +1,29 @@
+{
+  "name": "IsometryEx",
+  "description": "Modified from Isometry to support higher versions of Sketch",
+  "version": "1.0.0",
+  "engines": {
+    "sketch": ">=52.0"
+  },
+  "skpm": {
+    "name": "IsometryEx",
+    "manifest": "src/manifest.json",
+    "main": "dist/IsometryEx.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider skpm-build",
+    "watch": "cross-env NODE_OPTIONS=--openssl-legacy-provider skpm-build --watch",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.8.0",
+    "cross-env": "^7.0.3"
+  },
+  "author": "marklion",
+  "homepage": "https://github.com/zhaixiaowai/IsometryEx",
+  "license": "MIT"
+}

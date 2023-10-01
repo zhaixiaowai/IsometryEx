@@ -1,0 +1,42 @@
+{
+  "name": "IsometryEx",
+  "description": "Create isometric projections from layers",
+  "icon": "icon.png",
+  "identifier": "com.marklion.isometryex",
+  "author": "marklion",
+  "version": "0.9",
+  "commands": [
+    {
+      "script": "__plugin.js",
+      "handler": "onCreateTop",
+      "name": "Create Top Isometric Projection",
+      "description": "Generate a top isometric view with selected layers",
+      "identifier": "create-top"
+    },
+    {
+      "script": "__plugin.js",
+      "handler": "onCreateLeft",
+      "name": "Create Left Isometric Projection",
+      "description": "Generate a left isometric view with selected layers",
+      "identifier": "create-left"
+    },
+    {
+      "script": "__plugin.js",
+      "handler": "onCreateFront",
+      "name": "Create Front Isometric Projection",
+      "description": "Generate a front isometric view with selected layers",
+      "identifier": "create-front"
+    }
+  ],
+  "menu": {
+    "title": "IsometryEx",
+    "items": [
+      "create-top",
+      "create-left",
+      "create-front"
+    ]
+  },
+  "homepage": "https://github.com/zhaixiaowai/IsometryEx",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
