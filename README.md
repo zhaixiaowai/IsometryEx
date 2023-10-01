@@ -1,6 +1,7 @@
-![Isometry](images/logo.png?raw=true)
+![IsometryEx](images/logo.png?raw=true)
+**`IsometryEx`** Derived from https://github.com/maxkonovalov/Isometry and modified to support the latest Sketch version.
 
-**`Isometry`** is a [Sketch](https://sketchapp.com) plugin that allows to create isometric projections from layers easily.
+**`IsometryEx`** is a [Sketch](https://sketchapp.com) plugin that allows to create isometric projections from layers easily.
 
 ## Features
 
@@ -22,10 +23,10 @@ The plugin can generate 3 types of isometric projections from your source layers
 
 ## Installation
 
-- [Download](https://github.com/maxkonovalov/Isometry/releases/latest/download/Isometry.sketchplugin.zip) the latest release of the plugin
+- [Download](https://github.com/zhaixiaowai/IsometryEx/releases/latest/download/IsometryEx.sketchplugin.zip) the latest release of the plugin
 - Un-zip
-- Double-click on `Isometry.sketchplugin`
+- Double-click on `IsometryEx.sketchplugin`
 
 ## License
 
-`Isometry` is available under the MIT license. See the LICENSE file for more info.
+`IsometryEx` is available under the MIT license. See the LICENSE file for more info.
